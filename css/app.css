@@ -1,20 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/monaco');
+                
+
+html {
+    font-family: 'Monaco', sans-serif;
+}
+
 body {
     background-color: rgb(39, 153, 134);
 }
 
 .container {
     margin: 0 auto;
-    min-height: 600px;
+    min-height: 900px;
 }
 
 .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 200px;
 }
 
 #outputPassword {
     color: white; 
-    background-color: black;
+    background-color: orange;
+    object-fit: cover;
     font-size: 50px;
+    padding: 35px;
 }
