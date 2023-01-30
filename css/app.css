@@ -24,7 +24,6 @@ body {
 #outputPassword {
     color: white; 
     background-color: orange;
-    object-fit: cover;
     font-size: 50px;
     padding: 35px;
 }
