@@ -19,5 +19,5 @@ annoNascita = prompt('E in che anno sei nato?')
 console.log(nome + cognome + colore + numero)
 
 
-console.log('Creo output che andrà a sostituire h1')
+console.log('Creo output che andrà a sostituire span con id outputPassword')
 outputPassword.innerHTML = nome + cognome + colore + numero + annoNascita;
